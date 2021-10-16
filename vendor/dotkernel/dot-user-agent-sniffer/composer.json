@@ -1,0 +1,23 @@
+{
+    "name": "dotkernel/dot-user-agent-sniffer",
+    "description": "DotKernel component providing details about a device by parsing a user agent.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DotKernel Team",
+            "email": "team@dotkernel.com"
+        }
+    ],
+    "require": {
+        "matomo/device-detector": "^4.1",
+        "psr/container": "^1.0",
+        "laminas/laminas-stdlib": "^3.3",
+        "laminas/laminas-dependency-plugin": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dot\\UserAgentSniffer\\": "src/"
+        }
+    }
+}
